@@ -61,7 +61,7 @@ verification = signature ^ verificationKey
 print('Verification: ' + str(verification))
 
 if verification == transactionHash:
-    print('Alice signed this transaction, verified by her private key')
+    print('Alice signed this transaction, verified by her public key')
 
 # Do the proof of work for the block
 

@@ -37,3 +37,4 @@ for i in range(0,256):
     if hashedMessage <= 2:
         print('Nonce: ' + str(i))
         print('Hashed Message: ' + str(hashedMessage))
+        break

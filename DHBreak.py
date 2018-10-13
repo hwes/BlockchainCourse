@@ -1,18 +1,18 @@
 import time
 
-y = 7
-p = 11
-interceptedAlpha = 2
-interceptedBeta = 4
-maxA = 10
-maxB = 10
+#y = 7
+# = 11
+#interceptedAlpha = 2
+#interceptedBeta = 4
+#maxA = 10
+#maxB = 10
 
-# y = 453
-# p = 21997
-# interceptedAlpha = 12271
-# interceptedBeta = 7790
-# maxA = 1024
-# maxB = 1024
+y = 453
+p = 21997
+interceptedAlpha = 12271
+interceptedBeta = 7790
+maxA = 1024
+maxB = 1024
 
 
 i = 0
