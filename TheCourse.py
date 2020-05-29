@@ -50,6 +50,7 @@ def calculate_nonce(block_hash):
             nonce = i
             return nonce
 
+
 # Verify nonce
 def verify_nonce(block_hash, nonce):
     test_hash = str(block_hash) + str(nonce)
