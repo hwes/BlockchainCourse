@@ -1,4 +1,6 @@
+import time
 
+startTime = time.perf_counter()
 
 for x in range(0, 10000):
     # print('X = ' + str(x))
@@ -8,7 +10,10 @@ for x in range(0, 10000):
     # print('Z = '+ str(z))
     if z == 5787:
         print('X was ' + str(x))
-        # print('Y is ' + "{:2e}".format(y))
-    # print('X: ' + str(x) + '           Y: ' + "{:2e}".format(y) + '       Z: ' +str(z))
+        endTime = time.perf_counter()
+        print('\n'+'runTime: ' +"{:.2f}".format((endTime - startTime)*1000) + ' ms')
+        break
 
+        # print('Y is ' + "{:2e}".format(y))
+        # print('X: ' + str(x) + '           Y: ' + str(y) + '       Z: ' +str(z))
 
