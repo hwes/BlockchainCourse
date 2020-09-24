@@ -11,16 +11,16 @@ startTime = time.perf_counter()
 # b = 6
 
 # crack
-y = 453
-p = 21997
-a = 899
-b = 753
+# y = 453
+# p = 21997
+# a = 899
+# b = 753
 
 # crack long
-# y = 48032
-# p = 36945
-# a = 3204
-# b = 8363
+y = 48032
+p = 36945
+a = 3204
+b = 8363
 
 print('Y:' + str(y) + ' P: ' +str(p))
 

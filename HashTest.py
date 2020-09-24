@@ -37,7 +37,7 @@ hashedMessage = hash8(plainTextMessage, exampleTable)
 print('Message: ' + plainTextMessage)
 print('Hashed Message: ' + str(hashedMessage))
 
-plainTextMessage = 'Ferie'
+plainTextMessage = 'Ferie7'
 hashedMessage = hash8(plainTextMessage, exampleTable)
 
 print('Message: ' + plainTextMessage)

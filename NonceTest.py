@@ -34,7 +34,7 @@ exampleTable = [168, 44, 254, 252, 133, 130, 33, 43, 141, 229, 62,
 for i in range(0,256):
     plainTextMessage = 'Ferie' + str(i)
     hashedMessage = hash8(plainTextMessage, exampleTable)
-    if hashedMessage <= 2:
+    if hashedMessage == 43:
         print('Nonce: ' + str(i))
         print('Hashed Message: ' + str(hashedMessage))
         break
